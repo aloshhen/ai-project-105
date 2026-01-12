@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-coffee-primary text-coffee-secondary;
+}
+
+.twa-adaptive {
+  @apply w-full h-screen overflow-x-hidden;
+}
